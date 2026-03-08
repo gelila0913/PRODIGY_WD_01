@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { search,user } from "lucide-react";
+import { Search,User } from "lucide-react";
 const Header =() =>{
     return(
         <>
@@ -15,17 +15,17 @@ const Header =() =>{
                     <li><a href="#">Shows</a></li>
                     <li><a href="#">Movies</a></li>
                     <li><a href="#">Games</a></li>
-                    <label htmlFor="">MyList</label>
+                    <li><a href="">MyList</a></li>
                 </ul>
             </nav>
            </div>
            <div className="search">
             <ul>
-            <li><search className="icon" size={20}/>             
+            <li><Search className="icon" size={20}/>             
             <input type="text" placeholder="search" /> </li>
             <li>Kids</li>
 
-            <li> <user className="icon" size={20} /> </li>
+            <li> <User className="icon" size={20} /> </li>
             </ul>
 
            </div>
@@ -34,3 +34,5 @@ const Header =() =>{
         </>
     )
 }
+
+export default Header;
