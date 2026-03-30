@@ -1,3 +1,6 @@
+body{
+background-color: black;
+}
 
 .header{
     display: flex;
@@ -5,23 +8,42 @@
     background-color:;
 
 }
+.logo{
+    color:white;
+    font-weight: bolder;
+    margin-left:25px;
+    color:red;
+    font-style: italic;
+}
 .container{
     display:flex;
+    gap:100px;
 }
 .nav ul{
     display:flex;
     list-style: none;
     gap:15px;
     color:white;
+    margin-top:25px;
 }
 .nav a{
     text-decoration: none;
-    color:;
+    color:white;
+    font-weight: bolder;
 }
 .search ul{
     display:flex;
     list-style: none;
     gap:10px;
-    margin-right:10px;
+    margin-right:50px;
+    margin-top:25px;
 
+}
+.search li{
+    color:white;
+    font-weight: bolder;
+}
+.search .icon1{
+    position:absolute;
+    color:black;
 }

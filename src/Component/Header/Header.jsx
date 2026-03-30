@@ -4,6 +4,7 @@ import { Search,User } from "lucide-react";
 const Header =() =>{
     return(
         <>
+        <body>
         <header className="header">
             <div className="container">
             <div className="logo">
@@ -21,8 +22,8 @@ const Header =() =>{
            </div>
            <div className="search">
             <ul>
-            <li><Search className="icon" size={20}/>             
-            <input type="text" placeholder="search" /> </li>
+            <li><Search className="icon1" size={18}/>             
+            <input type="text" placeholder="    search" /> </li>
             <li>Kids</li>
 
             <li> <User className="icon" size={20} /> </li>
@@ -30,7 +31,7 @@ const Header =() =>{
 
            </div>
         </header>
-
+        </body>
         </>
     )
 }
