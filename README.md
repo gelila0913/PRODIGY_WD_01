@@ -1,16 +1,30 @@
-# React + Vite
+# JOYVIEW - Premium Movie Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**JOYVIEW** is a high-fidelity, responsive landing page inspired by modern streaming platforms like Netflix. This project focuses on delivering a seamless user experience across all devices, featuring a dynamic header, high-impact hero sections, and interactive "story rows."
 
-Currently, two official plugins are available:
+## 🎥 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application serves as the "unlogged-in" gateway for a streaming service. It uses a "Zebra" layout pattern (alternating media and text) to explain features to potential users, ending with a call-to-action (CTA) for membership.
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Responsive Header:** Features a "scroll-to-black" effect. The background is transparent at the top and transitions to solid black as the user scrolls down.
+* **Mobile Hamburger Menu:** A fully functional slide-out menu for mobile users built with `lucide-react`.
+* **Dynamic Hero Section:** A cinematic background with a responsive email capture form that stacks vertically on smaller screens.
+* **Story Rows:** Alternating sections showcasing "Watch on TV," "Download to Mobile," and "Watch Everywhere" using Flexbox logic.
+* **Hover Animations:** Interactive scaling effects on buttons and navigation links for a premium feel.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework:** React.js
+* **Styling:** Vanilla CSS (Custom properties, Flexbox, Media Queries)
+* **Icons:** [Lucide-React](https://lucide.dev/)
+* **Animations:** CSS Transitions & Intersection Observer API
+
+## 📦 Getting Started
+
+To view this project locally, ensure you have **Node.js** installed:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/JOYVIEW-Landing-Page.git](https://github.com/gelila0913/PRODIGY_WD_01)
